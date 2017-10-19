@@ -1,0 +1,26 @@
+{
+  "name": "nice-work.sourceheap.com",
+  "version": "0.1.0",
+  "description": "\"A household chore managing web app for kids and parents.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Budish <mtbudish@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "riot": "^3.7.3",
+    "riot-routehandler": "^1.2.4"
+  },
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^8.2.4",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-postcss": "^0.5.5",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-riot": "^1.1.0"
+  }
+}
