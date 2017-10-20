@@ -2,8 +2,10 @@
   "name": "nice-work.sourceheap.com",
   "version": "0.1.0",
   "description": "\"A household chore managing web app for kids and parents.\"",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
+    "build": "rollup -c",
+    "deploy": "aws s3 sync public/ s3://nice-work.sourceheap.com",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Budish <mtbudish@gmail.com>",
@@ -12,6 +14,7 @@
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "riot": "^3.7.3",
+    "riot-route": "^3.1.2",
     "riot-routehandler": "^1.2.4"
   },
   "devDependencies": {
