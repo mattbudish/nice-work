@@ -7,7 +7,7 @@ import postcss from 'rollup-plugin-postcss'
 
 export default {
   entry: 'src/main.js',
-  dest: 'public/bundle.js',
+  dest: 'public/js/bundle.js',
   plugins: [
     riot(),
     postcss({
