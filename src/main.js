@@ -21,6 +21,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 */
 
 import 'bootstrap/dist/css/bootstrap.css'
+import './sticky-footer.css'
 
 import './jquery-global.js'
 import 'bootstrap'
