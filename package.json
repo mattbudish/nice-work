@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "deploy": "aws s3 sync public/ s3://nice-work.sourceheap.com",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "superstatic public"
   },
   "author": "Matt Budish <mtbudish@gmail.com>",
   "license": "MIT",
@@ -24,6 +25,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-postcss": "^0.5.5",
     "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-riot": "^1.1.0"
+    "rollup-plugin-riot": "^1.1.0",
+    "superstatic": "^5.0.1"
   }
 }
