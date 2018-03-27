@@ -1,7 +1,7 @@
 {
-  "name": "nice-work.sourceheap.com",
+  "name": "nice-work",
   "version": "0.1.0",
-  "description": "\"A household chore managing web app for kids and parents.\"",
+  "description": "A household chore managing web app for kids and parents.",
   "main": "public/index.html",
   "scripts": {
     "build": "rollup -c",
@@ -10,6 +10,7 @@
     "local": "superstatic public"
   },
   "author": "Matt Budish <mtbudish@gmail.com>",
+  "repository": "github:mattbudish/nice-work",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",
